@@ -8,7 +8,6 @@ MOTION_UPDATE_COORDINATOR = "motion_update_coordinator"
 BASE = "base"
 PUSH_MANAGER = "push_manager"
 SESSION_RENEW_THRESHOLD = 300
-MEDIA_SOURCE = "media_source"
 THUMBNAIL_VIEW = "thumbnail_view"
 SHORT_TOKENS = "short_tokens"
 LONG_TOKENS = "long_tokens"

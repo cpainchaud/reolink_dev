@@ -2,7 +2,6 @@
   "domain": "reolink_dev",
   "name": "Reolink IP camera",
   "after_dependencies": [
-    "media_source",
     "http"
   ],
   "codeowners": [
