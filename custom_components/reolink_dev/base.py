@@ -645,6 +645,6 @@ def callback_get_iohttp_session():
     context.set_ciphers("DEFAULT")
     context.check_hostname = False
     context.verify_mode = ssl.CERT_NONE
-    session = async_create_clientsession(last_known_hass, verify_ssl=False)
+    session = async_create_clientsession(last_known_hass, verify_ssl=False, connection_owner=False)
     session.connector._ssl = context
     return session
