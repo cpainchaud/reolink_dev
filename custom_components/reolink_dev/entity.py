@@ -30,7 +30,7 @@ class ReolinkEntity(CoordinatorEntity):
             "sw_version": self._base.api.sw_version,
             "model": self._base.api.model,
             "manufacturer": self._base.api.manufacturer,
-            "channel": self._base.channel,
+#            "channel": self._base.channel,
         }
 
     @property
